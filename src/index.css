@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --color-accent: #ffffff;
+  --color-muted: #71717a;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #000000;
+  }
+  
+  body {
+    @apply text-gray-100 antialiased bg-[#000000] selection:bg-white/20 selection:text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tighter font-light;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.05] backdrop-blur-xl border border-white/[0.08];
+  }
+
+  .glass-hover {
+    @apply hover:bg-white/[0.08] hover:border-white/[0.12] transition-all duration-700;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-500;
+  }
+
+  .border-subtle {
+    @apply border border-white/[0.08];
+  }
+
+  .subtle-glow {
+    @apply shadow-[0_0_50px_-20px_rgba(255,255,255,0.1)];
+  }
+}
