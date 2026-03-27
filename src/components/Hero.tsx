@@ -4,17 +4,17 @@ import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 
 const slides = [
   {
-    image: "https://i.postimg.cc/0z1LxXSJ/6938c01f-d80c-4cc9-bf63-859ffff84cb6.jpg",
+    image: "https://i.postimg.cc/SxPvHbXp/Image-16.png",
     title: "珠江之畔，渔乐无穷",
     subtitle: "探索广州各大水系，发现隐藏的垂钓宝地"
   },
   {
-    image: "https://i.postimg.cc/hX9s7wbC/Image-16.png",
+    image: "https://i.postimg.cc/MpLFgJnt/Image-17.png",
     title: "碧波万顷，静候佳音",
     subtitle: "在宁静的湖泊与水库，享受与大自然的深度对话"
   },
   {
-    image: "https://i.postimg.cc/sMpmZ89Z/Image-17.png",
+    image: "https://i.postimg.cc/qq6VFkG8/Image-18.png",
     title: "技艺传承，渔获颇丰",
     subtitle: "分享资深钓友的实战经验，助你成为垂钓高手"
   }
